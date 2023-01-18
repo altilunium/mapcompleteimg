@@ -43,7 +43,7 @@ console.log(a.length)
 function nyaa(){
 	console.log("click!")
 	var d = Math.floor(Math.random() * a.length);
-	var x = "<img src='https://i.imgur.com/" + a[d] +".jpg'>"
+	var x = "<img src='https://i.imgur.com/" + a[d] +".jpg'><a style='padding-left:10px' target='_blank' href='https://imgur.com/" +a[d] +"'>See image license</a>"
 	var ctr = document.getElementById("ctr")
 	ctr.innerHTML = x
 }
